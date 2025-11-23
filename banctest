@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Advertencia de Seguridad</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fefefe;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .landing-warning {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      padding: 2rem;
+      background: #fff3cd;
+      color: #856404;
+      border: 2px solid #ffeeba;
+    }
+    .landing-warning h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .landing-warning p {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+      max-width: 600px;
+    }
+    .landing-warning .button {
+      background-color: #004481;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .landing-warning .button:hover {
+      background-color: #002f5f;
+    }
+  </style>
+</head>
+<body>
+  <div class="landing-warning">
+    <h1>⚠️ Sitio de Prueba – Precaución</h1>
+    <p>Este sitio web es una simulación realizada por el equipo de TI de fundación Corona con fines educativos o de prueba. No corresponde a una página oficial de Bancolombia ni de ninguna entidad financiera real.</p>
+    <p>Evita hacer clic en enlaces o proporcionar información personal. Si tienes dudas sobre la autenticidad de un mensaje, comunícate directamente con el equipo de TI o en caso reales con tu entidad financiera.</p>
+    <a href="contenido.html" class="button">ENTRAR BAJO TU RESPONSABILIDAD</a>
+  </div>
+</body>
+</html>
